@@ -5,11 +5,11 @@ from flask import Flask
 from flask import request
 app = Flask(__name__)
 
-consumer_key = '19aTHeLpggZk82XZ19Uf4rK7a'
-consumer_secret = '1fhkYwANr9gdMdrvbwYuikrvBP4xyg1MR834aUIfyasgz4S94n'
+consumer_key = 'xxx'
+consumer_secret = 'xxx'
 
-access_token = '547422976-0RYRArxhxwA8m91Ri0WS9We0TJPzplHvDlFGOMem'
-access_token_secret = 'A24Aj2Ghph6IHSfj4BrJYVhSgXZ8izxjbknObD8J17kjk'
+access_token = 'xxx'
+access_token_secret = 'xxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
